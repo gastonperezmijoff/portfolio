@@ -21,6 +21,11 @@ body {
     background-size: cover;
 }
 
+#inicio {
+    background-image: url("../imagenes/fondo-contacto.png");
+    background-size: cover;
+}
+
 
 #proyectos img {
     height: 210px;
@@ -125,7 +130,7 @@ nav .active {
     background-color: #370a6d;
     color: white;
     text-align: center;
-    right: 50px;
+    right: 35px;
     width: 60px;
     bottom: 0px;
     padding: 8px 15px;
@@ -135,10 +140,8 @@ nav .active {
 }
 
 
-
 footer {
     color: white;
-    max-width: 1320px;
     font-weight: 100;
 }
 
@@ -355,16 +358,31 @@ footer .fa-github {
     border-radius: 80px;
     margin: 0 8px;
 }
-
 #sobre-mi footer .fa-github {
     font-size: 30px;
     color: #e20000;
 }
-
 #sobre-mi footer {
     color: #ff4a49;
 }
-
 #sobre-mi footer a {
     color: #ff4a49;
+}
+#inicio img{
+    height: 400px;
+}
+
+#inicio img:hover{
+    height: 410px;
+}
+
+#inicio .div-cohete{
+    height: 410px;
+}
+.input-home p{
+    border: 1px solid white;
+    color: white;
+    font-size: 17px;
+    border-radius: 50px;
+    font-weight: 600;
 }
