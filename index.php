@@ -1,3 +1,8 @@
+<?php
+$pg = "inicio";
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -24,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center div-cohete">
-                <a href="#proyectos.html">
+                <a href="proyectos.php">
                 <img src="./imagenes/cohete.svg" class="cohete">
                 </a>
             </div>
