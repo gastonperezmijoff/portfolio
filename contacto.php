@@ -3,7 +3,6 @@ $pg = "contacto";
 
 if($_POST){
 
-if()
     $nombre = $_POST["txtNombre"];
     $correo = $_POST["txtCorreo"];
     $telefono = $_POST["txtTelefono"];
