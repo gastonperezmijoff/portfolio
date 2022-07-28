@@ -1,13 +1,17 @@
 <?php
-$pg = "contacto";
+
 
 if($_POST){
+
+
 
     $nombre = $_POST["txtNombre"];
     $correo = $_POST["txtCorreo"];
     $telefono = $_POST["txtTelefono"];
     $mensaje = $_POST["txtMensaje"];
-    
+
+    if($nombre != "" && $correo != "" && $telefono != "" && $mensaje != ""){
+
     $para = "gmijoff@gmail.com";
     $titulo = "Recibiste un mensaje desde tu web";
 //mensaje
@@ -29,8 +33,12 @@ if($_POST){
     //Enviarlo
     header("Location: confirmacion-envio.php");
 }
-?>
+}
 
+?>
+<?php
+$pg = "contacto";
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -69,7 +77,7 @@ if($_POST){
                         <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control">
                     </div>
                     <div class="pb-3">
-                        <input type="email" name="txtContacto" id="Contacto" placeholder="Correo"
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo"
                             class="form-control">
                     </div>
                     <div class="pb-3">
