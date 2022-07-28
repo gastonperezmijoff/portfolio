@@ -2,6 +2,8 @@
 $pg = "contacto";
 
 if($_POST){
+
+if()
     $nombre = $_POST["txtNombre"];
     $correo = $_POST["txtCorreo"];
     $telefono = $_POST["txtTelefono"];
@@ -90,7 +92,7 @@ if($_POST){
     </main>
     <footer class="container mt-auto pb-sm-4">
         <div class="btn-whatsapp">
-           <a href="" title="Whatsapp"></a> <i class="fa-brands fa-whatsapp"></i>
+           <a href="https://api.whatsapp.com/send?phone=5491131374760" title="Whatsapp" target="_blank"></a> <i class="fa-brands fa-whatsapp"></i>
         </div>
         <div class="row mb-sm-4 pb-sm-3">
             <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0">
