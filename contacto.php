@@ -3,8 +3,6 @@
 
 if($_POST){
 
-
-
     $nombre = $_POST["txtNombre"];
     $correo = $_POST["txtCorreo"];
     $telefono = $_POST["txtTelefono"];
